@@ -1,32 +1,44 @@
-# Matrix Operations in Java
+# 🧮 Matrix Operations in Java
 
-This repository contains Java implementations of **Matrix Transpose** and **Wave Traversal** algorithms. Both are important matrix operations commonly asked in interviews and competitive programming.
-
----
-
-## 📌 Features
-- **Matrix Transpose** (row → column conversion)
-- **Wave Traversal** (column-wise wave pattern)
-- Clean, beginner-friendly Java code
-- Works for any `N x M` matrix
+This repository contains Java implementations of various **matrix operations**, frequently used in coding interviews, competitive programming, and academic practice.  
 
 ---
 
-## 📖 Algorithms
+## 🚀 Implemented Programs
 
-### 🔹 1. Matrix Transpose
-Given an `N x M` matrix, the transpose is obtained by flipping it over its diagonal.  
-Mathematically:  
-\[
-transpose[i][j] = original[j][i]
-\]
+### 1️⃣ Wave Traversal of a Matrix
+Traverse the matrix in a **zig-zag wave pattern** column-wise.  
 
 
 ---
 
-### 🔹 2. Wave Traversal
-Wave traversal prints the elements of a matrix in a **wave-like fashion** (column-wise):
+### 2️⃣ Transpose of a Matrix
+Convert rows into columns and columns into rows.  
 
-- Even column → top to bottom  
-- Odd column → bottom to top  
+
+---
+
+### 3️⃣ Spiral Traversal of a Matrix
+Traverse the matrix elements in **spiral order**.  
+
+
+---
+
+### 4️⃣ Sparse Matrix Representation
+Efficient representation when most elements are **zero**, using `(row, col, value)` format.  
+
+
+---
+
+### 5️⃣ 90° Clockwise Rotation
+Rotate the matrix by **90 degrees clockwise**.  
+
+---
+
+### 6️⃣ 90° Anticlockwise Rotation
+Rotate the matrix by **90 degrees anticlockwise**.  
+
+
+
+
 
